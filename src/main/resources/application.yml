@@ -3,9 +3,9 @@ spring:
     virtual:
       enabled: true  # 开启虚拟线程
   datasource:
-    url: jdbc:mysql://localhost:3306/text_to_sql?useSSL=false&serverTimezone=UTC&remarks=true&useInformationSchema=true
-    username: root
-    password:
+    url: jdbc:mysql://localhost:3306/your_database
+    username: your_username
+    password: your_password
     driver-class-name: com.mysql.cj.jdbc.Driver
     hikari:
       maximum-pool-size: 20
